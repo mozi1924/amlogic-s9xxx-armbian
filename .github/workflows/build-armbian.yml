@@ -12,7 +12,7 @@ on:
       set_release:
         description: "Select OS Release."
         required: false
-        default: "jammy"
+        default: "bookworm"
         type: choice
         options:
           - jammy
@@ -22,7 +22,7 @@ on:
       armbian_board:
         description: "Select device board."
         required: false
-        default: "all"
+        default: "smart-am40"
         type: choice
         options:
           - all
@@ -208,7 +208,7 @@ on:
       armbian_fstype:
         description: "Select armbian rootfs type."
         required: false
-        default: "ext4"
+        default: "btrfs"
         type: choice
         options:
           - ext4
@@ -224,7 +224,7 @@ on:
       builder_name:
         description: "Set Armbian builder signature."
         required: false
-        default: "ophub"
+        default: "mozi1924"
         type: choice
         options:
           - ophub
