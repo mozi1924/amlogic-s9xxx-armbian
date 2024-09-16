@@ -229,7 +229,7 @@ on:
         options:
           - ophub
           - angel
-          - yourname
+          - mozi1924
 
 env:
   TZ: America/New_York
